@@ -3,7 +3,7 @@ import { LayoutAnimation, StyleSheet, Text, TouchableWithoutFeedback, View } fro
 import { connect } from 'react-redux';
 
 import { CardSection } from './common';
-import * as actions from './actions'
+import * as actions from '../actions'
 
 class ListItem extends Component {
   //noinspection JSMethodCanBeStatic
